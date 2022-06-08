@@ -1,0 +1,30 @@
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+body {
+	font-family:"Lucide Sans Unicode", Verdana, sans-serif;
+	line-height; 1.6;
+	background: #CC7766 url("noise.png");
+}
+.local {
+	border-color: #CCC #999 #CCC;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: rgba(210, 210, 210, 0.3);
+}
+.local h2{
+	border-botton: 1px dashed #5C6818;
+	margin: 0;
+}
+.local a{
+	color: #2C88A7;
+	text-decoration: none;
+}
+a:hover { // :focus, :visited, :active
+	color: white;
+	background-color: black;
+}
+	
