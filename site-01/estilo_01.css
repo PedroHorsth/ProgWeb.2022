@@ -69,5 +69,8 @@ footer{
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: rgba(210, 210, 210, 0.3);
-	float: left;
+	
+}
+.tabela table {
+	margin: 0 auto;
 }
