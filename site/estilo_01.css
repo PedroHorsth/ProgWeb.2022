@@ -3,11 +3,13 @@
 	margin: 0 auto;
 	width: 960px;
 }
+
 body {
-	font-family:"Lucide Sans Unicode", Verdana, sans-serif;
-	line-height; 1.6;
-	background: #CC7766 url("noise.png");
+	font-family:"Inconsolata", monospace;
+	line-height: 1.6;
+	background: #436e4e url("noise.png");
 }
+
 .local {
 	border-color: #CCC #999 #CCC;
 	border-style: solid;
@@ -16,18 +18,22 @@ body {
 	padding: 10px;
 	background-color: rgba(210, 210, 210, 0.3);
 }
+
 .local h2{
 	border-botton: 1px dashed #5C6818;
 	margin: 0;
 }
+
 .local a{
-	color: #2C88A7;
+	color: #054766;
 	text-decoration: none;
 }
+
 a:hover { // :focus, :visited, :active
 	color: white;
 	background-color: black;
 }
+
 .local img{
 	height: 200px;
 	border: 1px solid black;
@@ -35,13 +41,16 @@ a:hover { // :focus, :visited, :active
 	margin: 10px 10px 0 0;
 	padding: 2px;
 }
+
 .clear{
 	clear: both;
 }
+
 footer{
 	text-align: center;
 	font-size: 12px;
 }
+
 .notas{
 	background-color: rgba(210,210,210,0.3);
 	padding: 10px;
@@ -51,18 +60,22 @@ footer{
 	border-width: 1px;
 	width: 260;
 }
+
 .notas h3{
 	font-size: 14px;
 	margin-top: 0;
 	text-align: center;
 }
+
 .notas ol{
 	font-size: 12px;
 }
+
 .todoslugares {
 	width: 600;
 	float: left;
 }
+
 .tabela {
 	width: 580;
 	float: left;
@@ -72,11 +85,12 @@ footer{
 	margin-bottom: 20px;
 	padding: 10px;
 	background-color: rgba(210, 210, 210, 0.3);
-	
 }
+
 .tabela table {
 	margin: 0 auto;
 }
+
 .mapa {
 	display: block;
 	border-color: #CCC #999 #CCC;
@@ -86,6 +100,7 @@ footer{
 	float: right;
 	margin-top: 20px;
 }
+
 .formulario {
 	width: 580;
 	float: left;
@@ -96,3 +111,25 @@ footer{
 	padding: 10px;
 	background-color: rgba(210, 210, 210, 0.3);
 }
+
+* {
+    border-top-right-radius: 10px 5px;
+    border-top-left-radius: 10px 5px;
+    border-bottom-right-radius: 10px 5px;
+    border-bottom-left-radius: 10px 5px;
+}
+
+h1, h2{
+    margin: 0.67em 0;
+    width: 580;
+    text-align: center;
+}
+ 
+form {
+	text-align: center;
+}
+
+button, input, optgroup, select, textarea {
+	margin: 2;
+}
+
