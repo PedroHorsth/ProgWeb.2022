@@ -1,0 +1,69 @@
+1- Defina o que é HTML e qual é sua relação com XML e SGML.
+	Html e uma linguagem de marcação de hipertexto, ele permite a criação de sites e a incrementação de arquivos
+	como imagens, videos e audios por meio de hipertexto. Possuem relação pois ambas as linguagens são linguagens de marcação.
+	
+2- Sobre Marketing Digital:
+		A- Qual o tipo de consumidor atual e como atingi-los pela Internet?
+			Cliente-internaut. Depende da capacidade de alcançar e oferecer ao publico um conteúdo de valor para
+			uma clientela cada vez mais exigente.
+
+		B- Qual é a importância de apresentar sua empresa utilizando a Internet?
+			A internet oferece a possibilidade de alcançar um número muito
+			maior de pessoas por um preço relativamente baixo. 
+
+		C- Como organizar o conteúdo do site da empresa?
+			A categorização das informações e cria-se uma hierarquia do conteúdo de
+			forma a privilegiar as informações mais importantes, colocando em destaque os
+			conteúdos mais relevantes para o público, facilitando assim ao máximo a busca pelas
+			informações que ele deseja
+		
+3- Qual a diferença da Web 3.0 para as Web anteriores?
+	Maior controle da privacidade por parte do ususario utilizando arquitetura peer-to-peer.
+
+4- Quais as vantagens e desvantagens os padrões da Web definidos pela W3C?
+	Vantagens: Uniformidade, Liberdade, Simplicidade, Separação de Estrutura e Apresentação, Facilidade de Criação e Manutenção,
+	Acessibilidade, Extensibilidade, Estabilidade.
+
+	Desvantagens: Implementações discordantes, Aumento da complexidade inicial.
+	
+5- Defina e explique de forma sucinta os seguintes itens:
+		A- IP;
+			E um endereço de protocolo da internet, serve para conectar dispositivos a internet e cada dispositivo tem um ip proprio.
+		B- HTTP;
+			 E um protocolo cliente-servidor que serve para requisição de dados da web.
+		C- Cookies (web);
+			São arquivos que contem pequenos fragmentos de dados.
+			
+6- Pesquise e crie um quadro com as principais diferenças entre HTML e HTML5.
+	A maior vantagem que a versão 5 do HTML tem sobre o HTML é que ele 
+	tem suporte de áudio e vídeo de alto nível que não fazia parte das especificações de versão em HTMLs anteriores
+
+7- O que são e como podem ser utilizados os IFrames em um HTML?
+	E uma tag que e utilizada para incorporar outrar paginas html na pagina atual.
+
+8- Sobre CSS3 (responda com exemplos):
+		A- O que é?
+			É uma linguagem que define o estilo da informação apresentada em
+			uma página Web.
+			
+		B- Como escrever um estilo para um ID?
+			Utilizando a seguinte forma. #exemplo {estilos... } ---> Ex: #menu {margin: 0 auto;}
+			
+		C- Como escrever um estilo para uma classe?
+			Utilizando a seguinte forma. .exemplo {estilos... } ---> Ex: .menu {margin: 0 auto;}
+			
+		D- Como escrever um estilo para uma tag dentro de uma classe?
+			Utilizando a seguinte forma. .exemplo "tag desejada" {estilos... } ---> Ex: .exemplo h1 {color: red;
+			}
+		E- Como escrever um estilo para uma tag?
+			utilizando a seguinte forma. "tag {estilo... } ---> Ex: body {background-color: Blue;}
+			
+		F- O que é Box Model?
+			E um elemento que serve para descrever o conteudo de um certo elemento sendo esse conteudo o espaço, o tamanho da borda etc.
+			
+		G- O que é Floating?
+			e uma propriedade float do CSS que determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo
+			do seu containêr, onde textos e elementos em linha irão se posicionar ao seu redor.
+			
+		H- O que o Floating muda do desenvolvimento Web atual em relação ao modo antigo (com uso de tabelas na construção do site)?
+			Criação de sites mais dinamicos e melhor trabalhados.
