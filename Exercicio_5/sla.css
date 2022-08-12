@@ -1,0 +1,125 @@
+body {
+	background-color: yellow;
+	margin-aling: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+	div.example {
+		display: none;
+	}
+}
+
+@media print {
+	* {
+		background: transparent !important;
+		border-color: black !important;
+		box-shadow: none !important;
+		color: black !important;
+		text-shadow: none !important;
+	}
+	a { text-decoration: underline !important:}
+	a[href]::after {
+		content: ' (' attr(href) ')';
+	}
+}
+
+h1 {
+	font-family: "Press Start 2P", cursive;
+}
+
+.tnt {
+    border-radius: 50%;
+    border: 5px solid red;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    width: 50px;
+    color: red;
+    margin: 0 auto;
+    background-color: white;
+}
+
+figure {
+	position: relative;
+}
+
+img {
+	display: block;
+}
+
+figcaption {
+	bottom: 5px;
+	margin: 0 5px;
+	padding: 5px;
+	position: absolute;
+	width: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFF;
+}
+
+.stops {
+	background:
+		linear-gradient(to top, #F5B951 48%, #F2A31C 50%);
+}
+	
+.reverse-blue {
+	background:
+		linear-gradient(to top, #0537B7, #4377FA);
+}
+
+div {
+	box-shadow: 3px 3px 3px #AAA;
+	background-color: lightGreen;
+	padding: 5px;
+	width: 200px;
+	text-aling: center;
+	font-weight: bold;
+}
+
+input:focus {
+	border-color: #35861B;
+	box-shadow: 0 0 5px #35861B;
+	outline: none;
+}
+
+h1 {
+	background-color: #1D9AC0;
+	display: inline-block;
+	color: #FFF;
+	padding: 10px;
+	font-weight: bold;
+	text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.5);
+}
+
+span {
+	background-color: lightblue;
+}
+
+p {
+	background-color: green;
+	column-count: 3;
+	column-gap: 10px;
+	column-rule: 1px solid #666;
+	font-size: 0.9em;
+	width: 500px;
+}
+
+h2 {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+.counter {
+	background-color: #000;
+	border-top-left-radius: 25px 10px;
+	border-top-right-radius: 25px 10px;
+	color: white; display: block;
+	font-size: 1.7em; height: 50px;
+	line-height: 50px; text-align: center;
+	width: 50px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
