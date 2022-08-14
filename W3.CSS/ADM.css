@@ -1,0 +1,22 @@
+form {
+	width: 600px; 
+	margin-top: 90px;
+	float: left;
+	margin-left: 350px;
+	margin-bottom: 80px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.corpo {
+	height: 475px;
+	margin-bottom: 50px;
+}
+
+.corpod {
+	height: 600px;
+	margin-bottom: 50px;
+}
+
