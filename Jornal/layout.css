@@ -1,0 +1,40 @@
+
+header { grid-area: header; }
+footer { grid-area: footer; }
+section { grid-area: section; }
+nav { grid-area: nav; }
+aside { grid-area: aside; }
+
+body {
+	display: grid;
+	grid-template-columns: 12em 12em 12em 12em 12em;
+	width: 60em;
+	grid-template-areas:
+    'header header header header header '
+	'nav nav nav nav aside'
+    'section section section section aside '
+    'footer footer footer footer aside ';
+	background-color: #EDEFF0;
+	padding: 10px;
+	gap: 10px;
+}
+
+#menu ul {
+	display: flex;
+	background-color: white;
+	justify-content: space-between;
+}
+
+#menu ul li {
+    display: block;
+	width: 8rem;
+}
+
+#signup {
+	float: right;
+	display: block;
+}
+
+h2 {
+	float: left;
+}

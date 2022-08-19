@@ -1,0 +1,181 @@
+body {
+	width: 60em;
+	margin: 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #EDEFF0;
+}
+
+body > header {
+	display: block;
+	background-color: #046dd5;
+	padding-left: 10px
+}
+
+h1 a {
+	color: white;	
+}
+
+a {
+	color: white;	
+}
+
+body > header a {
+	color: white;
+	text-decoration: none;
+	margin: 5px;
+}
+
+body > header h1 {
+	font-size: 1.7rem;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+body > header h2 {
+	font-size: 0.8rem;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+body > header #signup {
+	font-size: 0.8rem;
+	padding-bottom: 18px;
+	padding-right: 10px;
+}
+
+body > header #signup a:nth-child(1) {
+	border-right: 1px solid white;
+	padding-right: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+    padding: 0;
+    text-align: center;
+	font-size: 0.9rem;
+}
+
+nav ul a{
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+nav input{
+	display: none;
+}
+
+nav ul li{
+	padding: 5px;
+	padding-top: 15px;
+}
+
+nav ul li:nth-child(1){
+	border-top: 5px solid #ec8f88;
+}
+
+nav ul li:nth-child(2){
+	border-top: 5px solid #8aba56;
+}
+
+nav ul li:nth-child(3){
+	border-top: 5px solid #5b4282;
+}
+
+nav ul li:nth-child(4){
+	border-top: 5px solid #fe8832;
+}
+
+nav ul li:nth-child(5){
+	border-top: 5px solid #19b6e9;
+}
+
+nav ul li:nth-child(6){
+	border-top: 5px solid #e84c8b;
+}
+
+aside {
+	background-color: #2a2f33;
+	padding: 8px;
+}
+
+aside a {
+	color: white;
+	text-decoration: none;
+}
+
+aside p {
+	color: #b5b6b8;
+	margin-top: 15px;
+    margin-bottom: 15px;
+	font-size: 0.8rem;
+}
+
+aside h1 {
+	margin: 0;
+	padding-top: 10px;
+	
+}
+
+section a {
+	text-decoration: none;
+	text-shadow: 0px 3px 5px #060606;
+}
+
+section  header {
+	position: absolute;
+	padding: 15px;
+    margin: 0;
+	display: block;
+    width: 180px;
+}
+
+section img {
+    margin: 0;
+
+}
+
+section footer {
+	background-color: #f4655f;
+	color: white;
+    font-size: 0.7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+section footer span {
+	font-size: 0.7rem;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	margin: 0;
+}
+
+footer {
+	color: white;
+	background-color: #2a2f33;
+    padding: 1px;
+    font-size: 0.8rem;
+	margin-top: 10px;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+#news article {
+	background-color: white;
+
+}
+
+article p {
+	padding-left: 15px;
+	padding-right: 15px;
+}
